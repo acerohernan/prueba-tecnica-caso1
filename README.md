@@ -1,4 +1,4 @@
-# Evaluación Técnica – Developer .NET - Parte 01
+# Evaluación Técnica – Developer .NET - Caso 01
 
 ## Indicaciones
 
