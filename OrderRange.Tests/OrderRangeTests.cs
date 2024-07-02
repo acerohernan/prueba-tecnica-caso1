@@ -17,7 +17,7 @@ namespace OrderRange.Tests
             List<int> imparesEsperados = [1, 5];
 
             var orderRange = new OrderRange();
-            var result = orderRange.build(entrada);
+            var result = orderRange.Build(entrada);
             
             result.Pares.Should().BeEquivalentTo(paresEsperados);
             result.Impares.Should().BeEquivalentTo(imparesEsperados);
@@ -35,7 +35,7 @@ namespace OrderRange.Tests
             List<int> imparesEsperados = [3, 9];
 
             var orderRange = new OrderRange();
-            var result = orderRange.build(entrada);
+            var result = orderRange.Build(entrada);
 
             result.Pares.Should().BeEquivalentTo(paresEsperados);
             result.Impares.Should().BeEquivalentTo(imparesEsperados);
@@ -53,7 +53,7 @@ namespace OrderRange.Tests
             List<int> imparesEsperados = [55, 57, 73];
 
             var orderRange = new OrderRange();
-            var result = orderRange.build(entrada);
+            var result = orderRange.Build(entrada);
 
             result.Pares.Should().BeEquivalentTo(paresEsperados);
             result.Impares.Should().BeEquivalentTo(imparesEsperados);

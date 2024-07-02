@@ -4,9 +4,10 @@
     {
 
         /// <summary>
-        /// 
+        /// Retorna una colección de números pares y uno de números impares usando los números recibidos como parámetro
         /// </summary>
-        public (List<int> Pares, List<int> Impares) build(List<int> numeros)
+        /// <param name="numeros">Los numeros a ser distribuidos</param>
+        public (List<int> Pares, List<int> Impares) Build(List<int> numeros)
         {
             List<int> pares = [];
             List<int> impares = [];
