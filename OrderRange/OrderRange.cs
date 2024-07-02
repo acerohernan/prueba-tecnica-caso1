@@ -6,7 +6,7 @@
         /// <summary>
         /// Retorna una colección de números pares y uno de números impares usando los números recibidos como parámetro
         /// </summary>
-        /// <param name="numeros">Los numeros a ser distribuidos</param>
+        /// <param name="numeros">Los numeros a ser clasificados</param>
         public (List<int> Pares, List<int> Impares) Build(List<int> numeros)
         {
             List<int> pares = [];
